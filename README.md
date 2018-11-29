@@ -25,3 +25,5 @@ KEY email (email)
 3. By MS Excel prepare data to upload to the mysql db "ctl1" (creat *.cvs file)
 
 4. Write php script "index.php" which shows content of the table "Users".
+
+5. Result table [link](http://cloud-technologies.java1cprog.tmweb.ru/).
