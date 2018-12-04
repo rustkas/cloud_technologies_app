@@ -14,8 +14,9 @@
 require_once('connect_db.php');
 
 $query = "SELECT nickname, surname, name, email FROM users ORDER BY nickname";
-$users = $pdo->query($query);
+
 try {
+    $users = $pdo->query($query);
     //add header
     //get meta information. Description of a table (column names).
     $q = $pdo->prepare("DESCRIBE users");
